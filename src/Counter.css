@@ -1,0 +1,31 @@
+.counter-container{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.increment-button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.decrement-button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.counter{
+    background-color: grey;
+}
