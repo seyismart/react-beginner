@@ -1,15 +1,17 @@
-// import React from "react";
+import React from 'react';
 
-// function Child({bloggerId}) {
+const Child = ({blogprop, handleDeletes}) => {
 
+    return (
+        <div className='center'>
+            {blogprop.map((blog) => (
+                <div key={blog.id} className='box'> {blog.title} 
+            <button onClick={() => handleDeletes(blog.id)}>Delete</button>
+           
+            </div>
+            ))}
+        </div>
+    );
+};
 
-//   return (
-//     <div>
-//       {bloggerId.map((data) => (
-//         <p key={data.id}>Author: {data.author}</p>
-//       ))}
-//     </div>
-//   );
-// }
-
-// export default Child;
+export default Child;
