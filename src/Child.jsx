@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 
-const Child = ({blogprop, handleDeletes}) => {
+// const Child = ({blogprop, handleDeletes}) => {
 
-    return (
-        <div className='center'>
-            {blogprop.map((blog) => (
-                <div key={blog.id} className='box'> {blog.title} 
-            <button onClick={() => handleDeletes(blog.id)}>Delete</button>
+//     return (
+//         <div className='center'>
+//             {blogprop.map((blog) => (
+//                 <div key={blog.id} className='box'> {blog.title} 
+//             <button onClick={() => handleDeletes(blog.id)}>Delete</button>
            
-            </div>
-            ))}
-        </div>
-    );
-};
+//             </div>
+//             ))}
+//         </div>
+//     );
+// };
 
-export default Child;
+// export default Child;
